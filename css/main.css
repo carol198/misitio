@@ -1,6 +1,57 @@
 /* Inserta tu código aqui */
-.marcos{
+* {
+	font-family: Arial;
+	color: black;
+}
+p {
 	width: 100%;
-	height: 100px;
+}
+a{
+	color: black;
+}
+.historia h3{
+	width: 250px;
+	height: 50px;
+	padding: 15px 20px;
 	background-color: #BABEBE;
+	border: 1px solid black;
+}
+.historia h4{
+	width: 150px;
+	height: 30px;
+	padding: 5px 30px;
+	background-color: #BABEBE;
+	border: 1px solid black;
+}
+.filaimagen img{
+	width: 100%;
+	height: 250px;
+
+}
+.fondo{
+	background-color: #F8F7F7;
+	width: 100%;
+	height: 300px;
+	margin-bottom: 5px;
+
+}
+.historia2 h4{
+	width: 150px;
+	height: 30px;
+	padding: 5px 30px;
+	background-color: #BABEBE;
+	border: 1px solid black;
+	margin-left: 10px;
+}
+.video{
+	width: 95%;
+	height: 120px;
+	padding-left: 20px;
+}
+.fecha h3{
+	width: 100%;
+	height: 105px;
+	background-color:#F8F7F7; 
+	padding: 20px 2px;
+	text-align: center;
 }

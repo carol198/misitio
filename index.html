@@ -2,108 +2,359 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Bootstrap: Grid System</title>
+	<title>Computines.com</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">	
+	<link rel="stylesheet" href="css/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <header>
-	<!-- barra de navegacion-->
-  <nav class="navbar navbar-default" role="navigation">
-    <!-- El logotipo y el icono que despliega el menú se agrupan
-         para mostrarlos mejor en los dispositivos móviles -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse"
-              data-target=".navbar-ex1-collapse">
-        <span class="sr-only">Desplegar navegación</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">computines.com</a>
-    </div>
-   
-    <!-- Agrupar los enlaces de navegación, los formularios y cualquier
-         otro elemento que se pueda ocultar al minimizar la barra -->
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="#">Noticias <span class="glyphicon glyphicon-home"></span></a>
-        </li>
-        <li>
-          <a href="#">Enlaces RSS <span class="glyphicon glyphicon-tag"></span></a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <div class="container">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-2">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Desplegar navegación</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <h1>Computines.com</h1>
+          </div>
+        </div> 
+        <div class="col-md-6">
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#">Noticias <span class="glyphicon glyphicon-home"></span></a>
+              </li>
+              <li>
+                <a href="#">Enlaces RSS <span class="glyphicon glyphicon-tag"></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="input-group">
+            <input type="text">
+              <button class="btn btn-default" type="button">Buscar</button>
+          </div>
+        </div>
 </header>
 <section>
-  <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active">
-          <a href="#">Bienvenido</a>
-        </li>
-        <li>
-          <a href="#">Quienes somos</a>
-        </li>
-        <li class="dropdown">
-          <a href="#">Nuestra red</a>
-        </li>
-        <li class="dropdown">
-          <a href="#">Contacto</a>
-        </li>
-        <li class="dropdown">
-          <a href="#">Ubicacion</a>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-</section>
   <div class="container">
-    <div class="row">
-      <div class="col-md-2">
-        <h3>
-          <span class="label label-default">Destacado</span>
-        </h3>
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
-    <div class="col-md-8">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus magnam hic recusandae molestiae ab, facere nemo minus et placeat explicabo quasi aspernatur veniam vitae cupiditate debitis nobis. Saepe, consequuntur, voluptates.</p>
-    </div>
-    <div class="col-md-4">
-      <h3>Historia destacada</h3>
-      <div class="marcos">
-        
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="#">Bienvenido</a>
+          </li>
+          <li>
+            <a href="#">Quienes somos</a>
+          </li>
+          <li class="dropdown">
+            <a href="#">Nuestra red</a>
+          </li>
+          <li class="dropdown">
+            <a href="#">Contacto</a>
+          </li>
+          <li class="dropdown">
+            <a href="#">Ubicacion</a>
+          </li>
+        </ul>
       </div>
     </div>
-    
-  </div>
+    </nav>
+</div>
+</section>
 <section>
+  <div class="container">
+      <div class="col-md-6"><!--1era columna-->
+        <div class="filaprimera">
+          <div class="historia"><h3>Historia destacada</h3></div>
+          <a href="">Articulo Publicado 09-09-2017</a>
+          <h3>Lorem ipsum</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="col-md-12">
+            <div class="col-md-6">
+              <span class="glyphicon glyphicon-bookmark"><a href="#">Ver mas...</a></span>
+            </div>
+            <div class="col-md-6">
+              <span class="glyphicon glyphicon-circle-arrow-right">Etiquetas: <a href="#">lorem</a> <a href="#">Ipsum</a> <a href="#">ligaer</a></span>
+            </div>
+          </div>
+        </div>
+          <hr>
+          <div class="filasegunda">
+            <div class="historia"><h4>Articulo</h4></div>
+            <a href="#">Articulo Publicado 09-09-2017</a>
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <span class="glyphicon glyphicon-bookmark"><a href="#">Ver mas...</a></span>
+              </div>
+              <div class="col-md-6">
+                <span class="glyphicon glyphicon-circle-arrow-right">Etiquetas: <a href="#">lorem</a> <a href="#">Ipsum</a> <a href="#">ligaer</a></span>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="filaimagen">
+            <a href="">Articulo Publicado 09-09-2017</a>
+            <h3>China en el 2016 con impresoras 3D</h3>
+            <img src="img/1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <span class="glyphicon glyphicon-bookmark"><a href="#">Ver mas...</a></span>
+              </div>
+              <div class="col-md-6">
+                <span class="glyphicon glyphicon-circle-arrow-right">Etiquetas: <a href="#">lorem</a> <a href="#">Ipsum</a> <a href="#">ligaer</a></span>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="filatexto">
+            <a href="">Articulo Publicado 09-09-2017</a>
+            <h3>Solo articulos destacados</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <span class="glyphicon glyphicon-bookmark"><a href="#">Ver mas...</a></span>
+              </div>
+              <div class="col-md-6">
+                <span class="glyphicon glyphicon-circle-arrow-right">Etiquetas: <a href="#">lorem</a> <a href="#">Ipsum</a> <a href="#">ligaer</a></span>
+              </div>
+            </div>
+          </div>
+      </div>
 
+      <div class="col-md-4"> <!--video 2 columna-->
+        <div class="fondo">
+          <div class="historia2"><h4>Articulo</h4></div>
+            <iframe class="video" src="https://www.youtube.com/embed/xfyWIEqgaBY" frameborder="0" allowfullscreen></iframe>
+            <div class="col-md-12">
+              <h4>Lorem ipsum</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, tempor incididunt ut labore et dolore ut aliquip ex ea commodo consequat.</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <span>Publicado 09-09-2012</span>
+                </div>
+                <div class="col-md-6">
+                  <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Ver mas..</span>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="historia2"><h4>Agenda</h4></div>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-4 fecha">
+                <h3>23 Enero</h3>
+              </div>
+              <div class="col-md-8">
+                <h3>Lorem</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiside</p>
+                <h5>23 diciembre 2019</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 fecha">
+                <h3>23 Enero</h3>
+              </div>
+              <div class="col-md-8">
+                <h3>Lorem</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiside</p>
+                <h5>23 diciembre 2019</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 fecha">
+                <h3>23 Enero</h3>
+              </div>
+              <div class="col-md-8">
+                <h3>Lorem</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiside</p>
+                <h5>23 diciembre 2019</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 fecha">
+                <h3>23 Enero</h3>
+              </div>
+              <div class="col-md-8">
+                <h3>Lorem</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiside</p>
+                <h5>23 diciembre 2019</h5>
+              </div>
+            </div>
+            <div class="row"><hr>
+                <h3>Mas información</h3>
+                <a href="#">Localidades</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiside</p>
+                <h5>23 diciembre 2019</h5>
+            </div>
+          </div>          
+        </div>   
+      <div class="col-md-2"><!--3era columna-->
+        <h3>Más Informacion</h3>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Finanzas</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Inversion y equipos</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Medioambiente</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Habitad / Urbanismo</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Sanidad</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Sociedad y servicios</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Transporte</a></span>
+          </div>
+        <div class="row"><hr>
+          <div class="col-md-12 fondo">
+            <h3>Magazice Ecodefi</h3>
+            <h5>ENQUEQUE.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam consequatur eaque iusto error reiciendis ratione voluptas aut nostrum luptas aut nostrum ptatem quod, vel, nihil.</p>
+          </div>
+          <div class="col-md-12 fondo">
+            <h3>Magazice Ecodefi</h3>
+            <h5>ENQUEQUE.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam consequatur eaque iusto error reiciendis ratione voluptas aut nostrum luptas aut nostrum ptatem quod, vel, nihil.</p>
+          </div>
+        </div>
+    </div>
+  </div>
 </section>
 
+<footer>
+  <div class="container">
+    <hr>
+    <div class="col-md-12 centrar">
+      <div class="row">
+        <div class="col-md-2">
+          <h3>Rubros</h3>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <h3>Rubros</h3>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <h3>Rubros</h3>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <h3>Rubros</h3>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h3>Rubros</h3>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+          <div>
+            <span class="glyphicon glyphicon-circle-arrow-right"><a href="#">Actualidades</a></span>
+          </div>
+        </div>  
+
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 
 
 
 
-
-	<!-- Incluir todos tus scripts apartir de este punto -->
-    <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+	
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
